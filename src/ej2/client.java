@@ -29,9 +29,9 @@ public class client {
         cha.anagente(doc3 );
 
         est1.enviar("hola docente");
-        est1.enviar("hola todos");
-        est1.enviar("hola admin");
-        est1.enviar("hola docente y estudiantes");
-        est1.enviar("hola a todos");
+        est5.enviar("hola todos");
+        est2.enviar("hola admin");
+        est3.enviar("hola docente y estudiantes");
+        ad2.enviar("hola a todos");
     }
 }
