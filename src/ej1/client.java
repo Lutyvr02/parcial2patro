@@ -9,6 +9,7 @@ public class client {
         //1
         String txtaguardar = "Bunenas tardes";
         doc = new Documento(1, "guardado", txtaguardar);
+        Memento mem = new Memento(doc);
         comando.setDoc(doc);
         ed.guardarDocu(1,comando.crearMem());
 
